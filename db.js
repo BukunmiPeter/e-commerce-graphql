@@ -1,0 +1,193 @@
+const products = [
+  {
+    id: "1",
+    name: "Steel Pot",
+    description: "Silver steeel pot that is perfect for cooking",
+    quantity: 230,
+    price: 42.44,
+    image: "img-1",
+    onSale: true,
+    categoryId: "1a",
+  },
+  {
+    id: "2",
+    name: "Salad Bowl",
+    description: "Round wooden bowl perfect for tossing and making salads",
+    quantity: 23,
+    price: 45.4,
+    image: "img-2",
+    onSale: false,
+    categoryId: "1a",
+  },
+  {
+    id: "3",
+    name: "Spoon",
+    description: "Small and delicate spoon",
+    quantity: 4266,
+    price: 1.33,
+    image: "img-3",
+    onSale: true,
+    categoryId: "1a",
+  },
+  {
+    id: "4",
+    name: "Shovel",
+    description: "Grey rounded shovel for digging",
+    quantity: 232,
+    price: 343.4,
+    image: "img-4",
+    onSale: false,
+    categoryId: "2a",
+  },
+  {
+    id: "5",
+    name: "Fertilizer",
+    description: "Nitrogen based fertilizer",
+    quantity: 4546,
+    price: 23.49,
+    image: "img-5",
+    onSale: true,
+    categoryId: "2a",
+  },
+  {
+    id: "6",
+    name: "Basketball",
+    description: "Outdoor or indoor basketball",
+    quantity: 128,
+    price: 59.99,
+    image: "img-6",
+    onSale: true,
+    categoryId: "3a",
+  },
+  {
+    id: "7",
+    name: "Golf Clubs",
+    description: "Good for golfing",
+    quantity: 4,
+    price: 454.4,
+    image: "img-7",
+    onSale: false,
+    categoryId: "3a",
+  },
+  {
+    id: "8",
+    name: "Basketball Gloves",
+    description: "Professional catcher gloves",
+    quantity: 733,
+    price: 77.0,
+    image: "img-8",
+    onSale: true,
+    categoryId: "3a",
+  },
+  {
+    id: "9",
+    name: "Soccer Ball",
+    description: "Round ball",
+    quantity: 599,
+    price: 92.46,
+    image: "img-9",
+    onSale: false,
+    categoryId: "3a",
+  },
+];
+
+const categories = [
+  {
+    id: "1a",
+    name: "Kitchen",
+  },
+  {
+    id: "2a",
+    name: "Garden",
+  },
+  {
+    id: "3a",
+    name: "Sports",
+  },
+];
+
+const reviews = [
+  {
+    id: "1c",
+    date: "2021-01-01",
+    title: "This is bad",
+    comment: "When i bought this it broke the stove",
+    rating: "1",
+    productId: "2",
+  },
+
+  {
+    id: "2c",
+    date: "2021-04-23",
+    title: "This is awesome",
+    comment: "very nice to use ",
+    rating: "4",
+    productId: "1",
+  },
+
+  {
+    id: "3c",
+    date: "2021-03-23",
+    title: "This is great",
+    comment: "good to use ",
+    rating: "4",
+    productId: "3",
+  },
+
+  {
+    id: "4c",
+    date: "2021-03-23",
+    title: "This is great",
+    comment: "good to use ",
+    rating: "4",
+    productId: "5",
+  },
+
+  {
+    id: "5c",
+    date: "2021-03-23",
+    title: "This is great",
+    comment: "good to use ",
+    rating: "4",
+    productId: "7",
+  },
+  {
+    id: "6c",
+    date: "2021-03-23",
+    title: "This is great",
+    comment: "good to use ",
+    rating: "4",
+    productId: "9",
+  },
+  {
+    id: "7c",
+    date: "2021-03-23",
+    title: "This is great",
+    comment: "good to use ",
+    rating: "4",
+    productId: "8",
+  },
+  {
+    id: "8c",
+    date: "2021-03-23",
+    title: "This is gr",
+    comment: "good to us ",
+    rating: "2",
+    productId: "6",
+  },
+  {
+    id: "9c",
+    date: "2021-03-23",
+    title: "This is gr",
+    comment: "good to us ",
+    rating: "2",
+    productId: "4",
+  },
+];
+
+// module.exports
+exports.db = {
+  products,
+  categories,
+  reviews,
+};
